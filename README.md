@@ -32,7 +32,7 @@ Chandni Wakil : Backend & API Integration , plus shared frontend contributions
 
 https://github.com/user-attachments/assets/697b2a1f-c14d-4e67-8af8-17c9bd7a57b6
 
-<img width="1120" height="612" alt="image" src="https://github.com/user-attachments/assets/eadf19c3-7490-485d-9a8c-5d1e3246cd2d" />
+
 
 
 
