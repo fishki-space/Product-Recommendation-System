@@ -20,12 +20,15 @@ An end-to-end product recommendation engine designed to enhance catalog data acc
 * **Frontend:** React, HTML5, CSS3, JavaScript
 
 
-## Setup & Installation
-
-1. **Clone the repository:**
 
 ## Contributors
 Chandni Wakil : Backend & API Integration 
+
+
+
+## Setup & Installation
+
+1. **Clone the repository:**
 
    ```bash
    git clone [https://github.com/YOUR_USERNAME/Product-Recommendation-System.git](https://github.com/YOUR_USERNAME/Product-Recommendation-System.git)
