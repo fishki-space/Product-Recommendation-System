@@ -24,6 +24,7 @@ An end-to-end product recommendation engine designed to enhance catalog data acc
 ## Contributors
 Chandni Wakil : Backend & API Integration 
 
+## Project snaps
 
 
 ## Setup & Installation
