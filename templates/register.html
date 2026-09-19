@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+
+{% block title %}
+Register | SHOPWISE
+{% endblock %}
+
+{% block content %}
+
+<!-- =====================================================
+                    REGISTER SECTION
+====================================================== -->
+
+<section class="login-section">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-5 col-md-7">
+
+                <div class="login-card">
+
+                    <div class="text-center mb-4">
+
+                        <h2 class="login-title">
+
+                            Create Your Account
+
+                        </h2>
+
+                        <p class="login-subtitle">
+
+                            Join SHOPWISE and start discovering products
+                            tailored for you.
+
+                        </p>
+
+                    </div>
+
+                    <form
+                        action="{{ url_for('register') }}"
+                        method="POST">
+
+                        <!-- Username -->
+
+                        <div class="mb-4">
+
+                            <label class="form-label">
+
+                                Username
+
+                            </label>
+
+                            <input
+                                type="text"
+                                name="name"
+                                class="form-control"
+                                placeholder="Enter your name"
+                                required>
+
+                        </div>
+
+                        <!-- Email -->
+
+                        <div class="mb-4">
+
+                            <label class="form-label">
+
+                                Email Address
+
+                            </label>
+
+                            <input
+                                type="email"
+                                name="email"
+                                class="form-control"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+                        <!-- Password -->
+
+                        <div class="mb-4">
+
+                            <label class="form-label">
+
+                                Password
+
+                            </label>
+
+                            <input
+                                type="password"
+                                name="password"
+                                class="form-control"
+                                placeholder="Create a password"
+                                required>
+                        <!-- Register Button -->
+
+                        <div class="d-grid mb-4">
+
+                            <button
+                                type="submit"
+                                class="btn btn-register">
+
+                                <i class="bi bi-person-plus-fill"></i>
+
+                                Create Account
+
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                    <hr class="my-4">
+
+                    <div class="text-center">
+
+                        <p class="mb-2">
+
+                            Already have an account?
+
+                        </p>
+
+                        <a
+                            href="{{ url_for('login') }}"
+                            class="btn btn-login">
+
+                            Login
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

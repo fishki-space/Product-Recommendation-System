@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ product.title }} | SHOPWISE
+{% endblock %}
+
+{% block content %}
+
+<!-- =====================================================
+                    PRODUCT DETAILS
+====================================================== -->
+
+<section class="product-details-section">
+
+    <div class="container">
+
+        <div class="row g-5 align-items-start">
+
+            <!-- Product Image -->
+
+            <div class="col-lg-5">
+
+                <div class="product-image-box">
+
+                    <img
+                        src="{{ product.image_url.split('|')[0] }}"
+                        alt="{{ product.title }}"
+                        class="img-fluid rounded-4">
+
+                </div>
+
+            </div>
+
+            <!-- Product Information -->
+
+            <div class="col-lg-7">
+
+                <span class="product-category">
+
+                    {{ product.category }}
+
+                </span>
+
+                <h1 class="detail-title">
+
+                    {{ product.title }}
+
+                </h1>
+
+                <div class="detail-price">
+
+                    ₹{{ product.price }}
+
+                </div>
+
+                <div class="detail-description">
+
+                    <p>
+
+                        {{ product.description }}
+
+                    </p>
+
+                </div>
+
+                <a
+                    href="{{ url_for('add_to_cart', product_id=product.product_id) }}"
+                    class="btn add-cart-btn">
+
+                    <i class="bi bi-cart-plus"></i>
+
+                    Add to Cart
+
+                </a>
+
+            </div>
+
+        </div>
+        <!-- =====================================================
+                RECOMMENDED PRODUCTS
+====================================================== -->
+
+{% if recommendations %}
+
+<div class="recommendations-section mt-5">
+
+    <div class="section-title">
+
+        <h2>
+
+            You May Also Like
+
+        </h2>
+
+        <div class="underline"></div>
+
+    </div>
+
+    <div class="product-grid">
+
+        {% for item in recommendations %}
+
+        <div class="product-card">
+
+            <!-- Product Image -->
+
+            <div class="product-image">
+
+                <a href="{{ url_for('product', product_id=item.product_id) }}">
+
+                    <img
+                        src="{{ item.image_url.split('|')[0] }}"
+                        alt="{{ item.title }}">
+
+                </a>
+
+            </div>
+
+            <!-- Product Information -->
+
+            <div class="product-body">
+
+                <span class="product-category">
+
+                    {{ item.category }}
+
+                </span>
+
+                <h5 class="product-title">
+
+                    <a href="{{ url_for('product', product_id=item.product_id) }}">
+
+                        {{ item.title }}
+
+                    </a>
+
+                </h5>
+
+                <div class="product-price">
+
+                    ₹{{ item.price }}
+
+                </div>
+
+                <a
+                    href="{{ url_for('product', product_id=item.product_id) }}"
+                    class="view-product-btn">
+
+                    View Product
+
+                </a>
+
+            </div>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+{% endif %}
+</div>
+
+</section>
+
+{% endblock %}
