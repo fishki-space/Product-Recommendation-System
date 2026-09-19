@@ -22,12 +22,20 @@ An end-to-end product recommendation engine designed to enhance catalog data acc
 
 
 ## Contributors
-Chandni Wakil : Backend & API Integration 
+Chandni Wakil : Backend & API Integration , plus shared frontend contributions
 
-## Project snaps
+## Project snaps 
 <img width="1896" height="823" alt="Screenshot 2026-07-30 212520" src="https://github.com/user-attachments/assets/3d3d3f83-e502-4800-a282-299fe47f00eb" />
 <img width="463" height="322" alt="Screenshot 2026-07-16 160128" src="https://github.com/user-attachments/assets/e0b3f3b4-b19e-4782-ae0f-9ad0e174afb1" />
 <img width="772" height="512" alt="Screenshot 2026-07-30 201555" src="https://github.com/user-attachments/assets/eb097bf0-1b85-451a-8750-5949ca91b356" />
+
+
+https://github.com/user-attachments/assets/697b2a1f-c14d-4e67-8af8-17c9bd7a57b6
+
+<img width="1120" height="612" alt="image" src="https://github.com/user-attachments/assets/eadf19c3-7490-485d-9a8c-5d1e3246cd2d" />
+
+
+
 
 
 
