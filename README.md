@@ -26,7 +26,7 @@ Chandni Wakil : Backend & API Integration , plus shared frontend contributions
 
 ## Project snaps 
 <img width="1896" height="823" alt="Screenshot 2026-07-30 212520" src="https://github.com/user-attachments/assets/3d3d3f83-e502-4800-a282-299fe47f00eb" />
-<img width="463" height="322" alt="Screenshot 2026-07-16 160128" src="https://github.com/user-attachments/assets/e0b3f3b4-b19e-4782-ae0f-9ad0e174afb1" />
+
 <img width="772" height="512" alt="Screenshot 2026-07-30 201555" src="https://github.com/user-attachments/assets/eb097bf0-1b85-451a-8750-5949ca91b356" />
 
 
